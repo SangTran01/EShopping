@@ -13,7 +13,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5e18573a-270d-4116-b265-a222e6ce8e62" name="Changes" comment="Init" />
+    <list default="true" id="5e18573a-270d-4116-b265-a222e6ce8e62" name="Changes" comment="added other projects to Catalog.API">
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/Product.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/ProductBrand.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/ProductType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/IBrandRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/IProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/ITypesRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/BrandContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/CatalogContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/CatalogContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/ICatalogContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/brands.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/products.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/types.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/TypeContextSeed.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Repositories/ProductRepository.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.API/appsettings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Application/Catalog.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Application/Catalog.Application.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Application/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Core/Catalog.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Core/Catalog.Core.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Core/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Infrastructure/Catalog.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Catalog.Infrastructure.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Catalog.Infrastructure/Program.cs" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +67,9 @@
   "associatedIndex": 2
 }]]></component>
   <component name="ProjectId" id="2jyWHrjlHmfLf2whpS77UI34Ar8" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -217,7 +244,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1722359712630</updated>
-      <workItem from="1722359713688" duration="2930000" />
+      <workItem from="1722359713688" duration="9243000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
@@ -227,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722362389088</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added other projects to Catalog.API">
+      <option name="closed" value="true" />
+      <created>1722362949253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1722362949253</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -249,6 +284,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Init" />
-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
+    <MESSAGE value="added other projects to Catalog.API" />
+    <option name="LAST_COMMIT_MESSAGE" value="added other projects to Catalog.API" />
   </component>
 </project>
