@@ -14,30 +14,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5e18573a-270d-4116-b265-a222e6ce8e62" name="Changes" comment="added other projects to Catalog.API">
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/BaseEntity.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/Product.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/ProductBrand.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Entities/ProductType.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/IBrandRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/IProductRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Core/Repositories/ITypesRepository.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/BrandContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/CatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/CatalogContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/ICatalogContext.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/brands.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/products.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/SeedData/types.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Data/TypeContextSeed.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Repositories/ProductRepository.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Application/Handlers/GetAllBrandsHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Application/Mappers/ProductMappingProfile.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Application/Queries/GetAllBrandsQuery.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Catalog.Application/Responses/BrandResponse.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.EShopping/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.API/appsettings.json" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.API/appsettings.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog.Application/Catalog.Application.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Application/Catalog.Application.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Application/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Core/Catalog.Core.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Core/Catalog.Core.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Core/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Infrastructure/Catalog.Infrastructure.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.Infrastructure/Catalog.Infrastructure.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Catalog.Infrastructure/Program.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,22 +32,25 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "SangTran01"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;SangTran01&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/SangTran01/EShopping.git",
-    "accountId": "1b95385c-aefd-4bf5-b750-eab8fded933f"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/SangTran01/EShopping.git&quot;,
+    &quot;accountId&quot;: &quot;6a164cae-e6c9-428e-aaa3-83ab7f09d780&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="SKIP_HIGHLIGHTING" />
+  </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2jyWHrjlHmfLf2whpS77UI34Ar8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -74,27 +59,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    ".NET Launch Settings Profile.Catalog.API.executor": "Run",
-    ".NET Launch Settings Profile.Catalog.API: http.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;.NET Launch Settings Profile.Catalog.API.executor&quot;: &quot;Run&quot;,
+    &quot;.NET Launch Settings Profile.Catalog.API: http.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\stran\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\stran\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\stran\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;/Users/sangtran/Library/Application Support/JetBrains/Rider2024.1/resharper-host/DecompilerCache&quot;,
+      &quot;/Users/sangtran/Library/Application Support/JetBrains/Rider2024.1/resharper-host/SourcesCache&quot;,
+      &quot;/Users/sangtran/Library/Application Support/Symbols/src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.Catalog.API">
     <configuration name="Catalog.Application" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="" />
@@ -232,7 +217,10 @@
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="dockerfile" temporary="true">
-      <deployment type="dockerfile" />
+      <deployment type="dockerfile">
+        <settings />
+      </deployment>
+      <EXTENSION ID="com.jetbrains.rider.docker.debug" isFastModeEnabled="true" isSslEnabled="false" />
       <method v="2" />
     </configuration>
   </component>
@@ -245,6 +233,8 @@
       <option name="presentableId" value="Default" />
       <updated>1722359712630</updated>
       <workItem from="1722359713688" duration="9243000" />
+      <workItem from="1722385974580" duration="18000" />
+      <workItem from="1722386013938" duration="5008000" />
     </task>
     <task id="LOCAL-00001" summary="Init">
       <option name="closed" value="true" />
